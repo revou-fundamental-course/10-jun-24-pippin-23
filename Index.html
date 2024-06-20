@@ -3,15 +3,92 @@
     <head> 
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, inital-scale=1.0">
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+
             <title>Konversi Suhu Gumilar</title>
-            <link rel="stysheet" href="css/style.css">
+            <!-- link css -->
+            <link rel="stylesheet" href="css/style.css">
     </head>
 
-    <body>
+    <body style="background-color: rgb(213, 208, 211);text-align: center;">
         <header>
-            <h1>Website Konversi Suhu</h1>
+            <h1 class="web-title">Website Konversi Suhu</h1>
+            
+            <hr class="line-red" />
+            <hr class="line-blue"/>
 
+            <!-- link java script -->
             <script src="js/script.js"></script>
         </header>
+
+        <main style="text-align: center;">
+            <!-- Section Celcius -->
+             <p> Masukan suhu derajat celcius (&deg;C)</p>
+            <section>
+
+                <header>
+                    Celcius(&deg;C)
+                </header>
+
+                <textarea class="text-area" style="color: rgb(15, 56, 15);" 
+                placeholder="Celcius(&deg;C)" id="celcius"></textarea>
+                
+                <!-- tombol -->
+                <section>
+                <button class="button-red" id="konversi">Konversi</button>
+                <button class="button-red" id="reset">Reset</button>
+                <button class="button-blue" id="reverse">Reverse</button>
+                </section>
+
+            <section>
+             <!-- Section Farenheit -->
+              <header>
+                Farenheit(&deg;F)
+              </header>
+
+              <textarea class="text-area" style="color: rgb(15, 56, 15);" 
+              placeholder="Farenheit(&deg;F)" id="farenheit"></textarea>
+
+            </section>
+
+             <section>
+              <!-- Section Calculator -->
+               <header>
+                Cara Kalkulasi:
+               </header>
+
+               <textarea class="text-area" style="color: rgb(15, 56, 15);"></textarea>
+
+             </section>
+
+             <section>
+                <!-- Section Rumus -->
+                 <h3>Cara Konversi dari Celcius (&deg;C) ke Farenheit (&deg;F)</h3>
+
+                 <hr />
+                 <p>Suhu <span class="subject-info">S</span> dalam derajat Farenheit (&deg;F) sama dengan suhu 
+                    <span class="subject-info">S</span> dalam derajat Celcius (&deg;C) kali 9/5 tambah 32
+                </p>
+                 <p>
+                    <span class="subject-info">S</span><sub>(&deg;F)</sub> = 
+                    (<span class="subject-info">S</span><sub>(&deg;C)</sub> 
+                    &times; <sup>9</sup>&frasl;<sub>5</sub>) &plus; 32</p>
+                 <p>atau</p>
+                 <p><span class="subject-info">S</span><sub>(&deg;F)</sub> = 
+                    (<span class="subject-info">S</span><sub>(&deg;C)</sub>
+                    &times;1.8) &plus; 32</p>
+             </section>
+
+            </section>
+        </main>
+        
+        <footer style="background-color: #787586;">
+            <section>
+                <p>pippin_2024</p>
+            </section>
+        </footer>
     </body>
 </html>

@@ -1,0 +1,51 @@
+/* File CSS */
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+.web-title{
+    font-style: italic;
+    text-align: right;
+    color: rgb(49,36,86);
+    font-weight: 700;
+}
+.subject-info{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.text-area{
+    box-sizing: border-box;
+    border: 15px solid #787586;
+    border-radius: 5px;
+    resize: none;
+    height: 100px;
+    width: 200px;
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    background-color: rgb(139, 172, 15);
+}
+.line-red{
+    border: 3px solid rgb(116,0,29);
+}
+.line-blue{
+    border: 3px solid rgb(49,36,86);
+}
+.button-red {
+    background-color: rgb(116,0,29);
+    border: 2px solid rgb(67, 0, 17);
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+.button-blue {
+    background-color: rgb(49,36,86);
+    border: 2px solid rgb(32, 23, 56);
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
